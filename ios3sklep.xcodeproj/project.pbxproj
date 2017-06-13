@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BA466161EEF2B1F006FE697 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA466151EEF2B1F006FE697 /* ProductTableViewCell.swift */; };
+		4BA466181EEF305B006FE697 /* xd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BA466171EEF305B006FE697 /* xd.jpg */; };
+		4BA481371EEF4B530025777E /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA481361EEF4B530025777E /* CartTableViewCell.swift */; };
+		4BC203C31EF072AA0008F532 /* cd1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC203C21EF072AA0008F532 /* cd1.mp3 */; };
+		4BC203C51EF08BC90008F532 /* muza9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC203C41EF08BC90008F532 /* muza9.mp3 */; };
+		4BC203C71EF08BD30008F532 /* muza6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC203C61EF08BD30008F532 /* muza6.mp3 */; };
+		4BC203C91EF08BE90008F532 /* muza4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC203C81EF08BE90008F532 /* muza4.mp3 */; };
+		4BC203CB1EF08C160008F532 /* muza12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BC203CA1EF08C160008F532 /* muza12.mp3 */; };
 		4BF7339A1EEF203F00377509 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF733991EEF203F00377509 /* AppDelegate.swift */; };
 		4BF7339C1EEF203F00377509 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF7339B1EEF203F00377509 /* ViewController.swift */; };
 		4BF7339F1EEF203F00377509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF7339D1EEF203F00377509 /* Main.storyboard */; };
 		4BF733A11EEF203F00377509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF733A01EEF203F00377509 /* Assets.xcassets */; };
 		4BF733A41EEF203F00377509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF733A21EEF203F00377509 /* LaunchScreen.storyboard */; };
+		4BF733AD1EEF21BD00377509 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF733AB1EEF21BD00377509 /* CartItem.swift */; };
+		4BF733AE1EEF21BD00377509 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF733AC1EEF21BD00377509 /* Cart.swift */; };
+		4BF733B21EEF226900377509 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF733B11EEF226900377509 /* DetailViewController.swift */; };
+		4BF733B41EEF227800377509 /* CartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF733B31EEF227800377509 /* CartTableViewController.swift */; };
+		4BF733B61EEF22A100377509 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF733B51EEF22A100377509 /* CategoryTableViewController.swift */; };
+		4BF733B81EEF22C100377509 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF733B71EEF22C100377509 /* CategoryViewController.swift */; };
+		4BF733BA1EEF234700377509 /* ShopProdList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF733B91EEF234700377509 /* ShopProdList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4BA466151EEF2B1F006FE697 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		4BA466171EEF305B006FE697 /* xd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = xd.jpg; path = ../../../Desktop/swift3/xd.jpg; sourceTree = "<group>"; };
+		4BA481361EEF4B530025777E /* CartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		4BC203C21EF072AA0008F532 /* cd1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cd1.mp3; path = ../../../AndroidStudioProjects/Android2/app/build/intermediates/res/merged/debug/raw/cd1.mp3; sourceTree = "<group>"; };
+		4BC203C41EF08BC90008F532 /* muza9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = muza9.mp3; path = ../../tmp/Android3/app/build/intermediates/res/merged/debug/raw/muza9.mp3; sourceTree = "<group>"; };
+		4BC203C61EF08BD30008F532 /* muza6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = muza6.mp3; path = ../../tmp/android_new/Android3/app/build/intermediates/res/merged/debug/raw/muza6.mp3; sourceTree = "<group>"; };
+		4BC203C81EF08BE90008F532 /* muza4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = muza4.mp3; path = ../../tmp/Android3/app/src/main/res/raw/muza4.mp3; sourceTree = "<group>"; };
+		4BC203CA1EF08C160008F532 /* muza12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = muza12.mp3; path = ../../../studia/android/Android3/app/src/main/res/raw/muza12.mp3; sourceTree = "<group>"; };
 		4BF733961EEF203F00377509 /* ios3sklep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios3sklep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF733991EEF203F00377509 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BF7339B1EEF203F00377509 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +45,13 @@
 		4BF733A01EEF203F00377509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BF733A31EEF203F00377509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BF733A51EEF203F00377509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF733AB1EEF21BD00377509 /* CartItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CartItem.swift; path = ../../Ios3/Ios3/CartItem.swift; sourceTree = "<group>"; };
+		4BF733AC1EEF21BD00377509 /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cart.swift; path = ../../Ios3/Ios3/Cart.swift; sourceTree = "<group>"; };
+		4BF733B11EEF226900377509 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4BF733B31EEF227800377509 /* CartTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTableViewController.swift; sourceTree = "<group>"; };
+		4BF733B51EEF22A100377509 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		4BF733B71EEF22C100377509 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		4BF733B91EEF234700377509 /* ShopProdList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopProdList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +84,27 @@
 		4BF733981EEF203F00377509 /* ios3sklep */ = {
 			isa = PBXGroup;
 			children = (
+				4BF733AB1EEF21BD00377509 /* CartItem.swift */,
+				4BF733AC1EEF21BD00377509 /* Cart.swift */,
 				4BF733991EEF203F00377509 /* AppDelegate.swift */,
 				4BF7339B1EEF203F00377509 /* ViewController.swift */,
 				4BF7339D1EEF203F00377509 /* Main.storyboard */,
+				4BA466171EEF305B006FE697 /* xd.jpg */,
+				4BC203C21EF072AA0008F532 /* cd1.mp3 */,
+				4BC203C41EF08BC90008F532 /* muza9.mp3 */,
+				4BC203CA1EF08C160008F532 /* muza12.mp3 */,
+				4BC203C81EF08BE90008F532 /* muza4.mp3 */,
+				4BC203C61EF08BD30008F532 /* muza6.mp3 */,
 				4BF733A01EEF203F00377509 /* Assets.xcassets */,
 				4BF733A21EEF203F00377509 /* LaunchScreen.storyboard */,
 				4BF733A51EEF203F00377509 /* Info.plist */,
+				4BF733B11EEF226900377509 /* DetailViewController.swift */,
+				4BF733B31EEF227800377509 /* CartTableViewController.swift */,
+				4BF733B51EEF22A100377509 /* CategoryTableViewController.swift */,
+				4BF733B71EEF22C100377509 /* CategoryViewController.swift */,
+				4BF733B91EEF234700377509 /* ShopProdList.swift */,
+				4BA466151EEF2B1F006FE697 /* ProductTableViewCell.swift */,
+				4BA481361EEF4B530025777E /* CartTableViewCell.swift */,
 			);
 			path = ios3sklep;
 			sourceTree = "<group>";
@@ -124,9 +169,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BC203C91EF08BE90008F532 /* muza4.mp3 in Resources */,
 				4BF733A41EEF203F00377509 /* LaunchScreen.storyboard in Resources */,
+				4BC203C31EF072AA0008F532 /* cd1.mp3 in Resources */,
 				4BF733A11EEF203F00377509 /* Assets.xcassets in Resources */,
+				4BA466181EEF305B006FE697 /* xd.jpg in Resources */,
 				4BF7339F1EEF203F00377509 /* Main.storyboard in Resources */,
+				4BC203C51EF08BC90008F532 /* muza9.mp3 in Resources */,
+				4BC203CB1EF08C160008F532 /* muza12.mp3 in Resources */,
+				4BC203C71EF08BD30008F532 /* muza6.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BF733BA1EEF234700377509 /* ShopProdList.swift in Sources */,
+				4BF733B61EEF22A100377509 /* CategoryTableViewController.swift in Sources */,
 				4BF7339C1EEF203F00377509 /* ViewController.swift in Sources */,
+				4BF733AD1EEF21BD00377509 /* CartItem.swift in Sources */,
+				4BF733B41EEF227800377509 /* CartTableViewController.swift in Sources */,
+				4BA481371EEF4B530025777E /* CartTableViewCell.swift in Sources */,
+				4BF733B81EEF22C100377509 /* CategoryViewController.swift in Sources */,
+				4BF733B21EEF226900377509 /* DetailViewController.swift in Sources */,
+				4BA466161EEF2B1F006FE697 /* ProductTableViewCell.swift in Sources */,
 				4BF7339A1EEF203F00377509 /* AppDelegate.swift in Sources */,
+				4BF733AE1EEF21BD00377509 /* Cart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +362,7 @@
 				4BF733AA1EEF203F00377509 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
